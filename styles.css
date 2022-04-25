@@ -12,7 +12,7 @@ body {
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-    box-shadow: ;
+    box-shadow: 0 0 5px #333;
 }
 
 .grid-cell {
