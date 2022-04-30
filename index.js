@@ -30,12 +30,17 @@ function resetGrid() {
 createGrid(16);
 
 
+// ADDED MOUSEOVER TO DRAW
+
 grid.addEventListener('mouseover', (e) => {
     if(e.target.matches('.grid-cell')) {
         e.target.setAttribute('class', 'permahover');
         e.stopPropagation();
     }
 });
+
+
+// ADDED CLICK EVENT ON BUTTON TO RESET GRID
 
 resetBtn.addEventListener('click', () => {
     resetGrid();
