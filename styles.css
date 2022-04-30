@@ -5,6 +5,9 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .grid {
@@ -12,17 +15,19 @@ body {
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 0 0 5px #333;
+    box-shadow: 0 0 5px #333;   
 }
 
 .grid-cell {
-    border: 1px solid red;
+    background-color: white;
     height: 31.25px;
     width: 31.25px;
-}
+} 
 
 
 
 .permahover {
     background-color: #333;
+    height: 31.25px;
+    width: 31.25px;
 }
