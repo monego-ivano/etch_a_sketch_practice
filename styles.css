@@ -4,30 +4,52 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 0;    
+    color: #333;
+}
+
+.title {
+    text-align: center;
+}
+
+.reset {
+    text-align: center;
+    display: inline-block;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.grid-container {
+    text-align: center;    
     display: flex;
     justify-content: center;
-    
 }
 
 .grid {
+    margin-top: 40px;
     width: 500px;
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 0 0 5px #333;   
+    box-shadow: 0 0 5px rgba(51, 51, 51, 0.589);   
+    background-color: white;
 }
 
-.grid-cell {
-    background-color: white;
-    height: 31.25px;
-    width: 31.25px;
-} 
 
+.btns-container {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
 
+.slider {
+    margin-top: 11px;
+}
 
 .permahover {
     background-color: #333;
-    height: 31.25px;
-    width: 31.25px;
 }
